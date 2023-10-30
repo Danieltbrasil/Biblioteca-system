@@ -9,9 +9,9 @@
                                 data_devolucao
                                 ) 
                                 VALUES (
-                                    '".$_POST["livro_id_livro"]."',
-                                    '".$_POST["usuario_id_usuario"]."',
-                                    '".$_POST["atendente_id_atendente"]."',
+                                    ".$_POST["livro_id_livro"].",
+                                    ".$_POST["usuario_id_usuario"].",
+                                    ".$_POST["atendente_id_atendente"].",
                                     '".$_POST["dt_emprestimo"]."',
                                     '".$_POST["dt_devolucao"]."'
                                 )";
