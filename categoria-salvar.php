@@ -40,7 +40,7 @@
 
             }
             break;
-        case 'excuir':
+        case 'excluir':
             $sql = "DELETE FROM categoria WHERE id_categoria = ".$_REQUEST['id'];
             
             $resultado = $mysqli->query($sql);
